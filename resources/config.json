@@ -1,0 +1,55 @@
+{
+  "application": {
+    "name": "TS_Tool_Routier",
+    "version": "1.0.0",
+    "author": "ROUTIER87",
+    "website": "https://github.com/votrecompte/TS_Tool_Routier"
+  },
+  "paths": {
+    "game_saves": "C:/Users/{username}/Documents/Transport Fever 2/save",
+    "backup_dir": "./backups",
+    "log_dir": "./logs",
+    "temp_dir": "./temp"
+  },
+  "editor": {
+    "default_bytes_per_line": 16,
+    "auto_backup": true,
+    "backup_on_modify": true,
+    "confirm_exit": true,
+    "recent_files_limit": 10
+  },
+  "game": {
+    "known_offsets": {
+      "money": {
+        "offset": 1048600,
+        "size": 8,
+        "type": "int64",
+        "description": "Argent du joueur"
+      },
+      "company_name": {
+        "offset": 1048500,
+        "size": 64,
+        "type": "string",
+        "description": "Nom de la compagnie"
+      }
+    },
+    "default_money": 1000000,
+    "max_money": 1000000000,
+    "min_money": -1000000
+  },
+  "ui": {
+    "theme": "default",
+    "language": "fr",
+    "font_family": "Consolas",
+    "font_size": 10,
+    "auto_refresh": true,
+    "show_hex_panel": true,
+    "show_map_preview": false
+  },
+  "logging": {
+    "level": "INFO",
+    "file_enabled": true,
+    "max_log_size": 10485760,
+    "backup_count": 5
+  }
+}

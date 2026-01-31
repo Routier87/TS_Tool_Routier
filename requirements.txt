@@ -1,0 +1,8 @@
+# TS_Tool_Routier - Dépendances Python
+PyQt6>=6.5.0
+pyinstaller>=5.0.0
+hexdump>=3.3
+Pillow>=9.0.0  # Pour images éventuelles
+numpy>=1.24.0  # Pour calculs
+pytest>=7.0.0  # Pour tests
+black>=23.0.0  # Formatage code
